@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingAndDispose.Domain", "src\UsingAndDispose.Domain\UsingAndDispose.Domain.csproj", "{2C794765-F801-4CFB-B809-E9BA3FA60134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingAndDispose.Prompt", "src\UsingAndDispose.Prompt\UsingAndDispose.Prompt.csproj", "{DF076732-7260-4CAF-BE40-1E398FA1B9C6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C794765-F801-4CFB-B809-E9BA3FA60134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C794765-F801-4CFB-B809-E9BA3FA60134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C794765-F801-4CFB-B809-E9BA3FA60134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C794765-F801-4CFB-B809-E9BA3FA60134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF076732-7260-4CAF-BE40-1E398FA1B9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF076732-7260-4CAF-BE40-1E398FA1B9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF076732-7260-4CAF-BE40-1E398FA1B9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF076732-7260-4CAF-BE40-1E398FA1B9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
